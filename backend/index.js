@@ -1,14 +1,15 @@
+require('dotenv').config();
 const express=require('express');
-
-//inicializations
-const app=express();
 const morgan=require('morgan');
 const multer=require('multer');
 const path=require('path');
-const { dirname } = require('path/posix');
-//settings
-app.set('port', 4000)
 
+//inicializations
+const app=express();
+require('./database')
+
+//settings
+app.set('port', 4000);
 
 //Middlewares
 app.use(morgan('dev'));
@@ -18,8 +19,8 @@ const storage=multer.diskStorage({
         cb(null,new Date().getTime()+path.extname( file.originalname));
     }
 })
-app.use(multer({storage}).single())
-app.use(express.urlencoded({extended:false}))
+app.use(multer({storage}).single('image'));
+app.use(express.urlencoded({extended:false}));
 app.use(express.json());
 
 // Routes
@@ -32,4 +33,4 @@ app.use(express.static(path.join(__dirname, 'public')));
 //start the server
 app.listen(app.get('port'), () =>{
 console.log('Server on port', app.get('port'));
-} )
+} );
