@@ -26,7 +26,9 @@ app.use(express.json());
 app.use('/api/books', require('./routes/books'));
 
 // Static files
-app.use(express.static(path.join(__dirname,'public' )));
+app.use(express.static(path.join(__dirname, 'public')));
+
+
 //start the server
 app.listen(app.get('port'), () =>{
 console.log('Server on port', app.get('port'));
