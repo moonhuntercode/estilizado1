@@ -9,7 +9,7 @@ const app=express();
 require('./database')
 
 //settings
-app.set('port', 4000);
+app.set('port', process.env.PORT || 4000);
 
 //Middlewares
 app.use(morgan('dev'));
