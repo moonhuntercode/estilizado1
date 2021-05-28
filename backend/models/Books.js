@@ -1,11 +1,12 @@
 const {Schema,model} =require('mongoose');
 
+
 const ASchema=new Schema(
     {
-        title:{ type:String,required:true },
+        tittle:{ type:String,required:true },
         author:{ type:String,required:true },
         isbn:{ type:String, required:true },
-        imagePath:{type:String, required:true},
+        imagePath:{type:String, required:false},
         created_at:{type:Date,default:Date.now }
     });
 
