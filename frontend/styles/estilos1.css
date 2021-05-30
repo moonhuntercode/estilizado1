@@ -1,15 +1,18 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .navbar{
-    position: fixed;
-    
-    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+position: fixed;
+font-size: 30px;
  background-color:  rgba(255, 255, 255, 0.6);
- width: 99vw;
+ width: 98vw;
  height: 15vh;
- border: solid black 0.2px;
+ border: solid rgb(133, 133, 133);;
  border-radius: 15px;
+
 }
 li{
     list-style: none;
@@ -22,8 +25,8 @@ li{
     font-weight: bold;
     border-radius: 15px;
     border-color: rgb(163, 163, 163);
-    color: rgb(255, 255, 255);
-    background: rgb(251, 95, 147);
+    color: rgb(0, 0, 0);
+    background: rgb(148, 245, 185);
    
 }
 .portada{
@@ -31,11 +34,11 @@ li{
     /* background-image: url(/img/tecnodent-publicidad1-copia.png); */
     background-repeat: no-repeat;
     overflow:hidden;
-    width:95vw; height:45vh;
+    width:100vw; height:65vh;
     align-items: center;
 }
 .portada>img{
-    height: 45vh;
+    width:100vw ;
     display: flex;
     margin-right: auto;
     margin-left: auto;
@@ -59,10 +62,19 @@ ul{
 }
 .cards_item{
     margin: auto;
-    border: solid rgb(192, 129, 250) 3px;
+    border: solid rgb(148, 245, 185) 4px;
     border-radius: 30px;
     width: 250px;
 }
+.cards_item:hover{
+    border: solid rgb(246, 125, 176) 4px;
+
+}
 .cards_item>img{
     width: 250px;
+}
+.Google_map{
+width: 100vw;
+height: 30vh;
+z-index: 0;
 }
