@@ -51,4 +51,16 @@ li{
 ul{
     padding: 0;
 }
-
+.cards_zone{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards_item{
+    margin: auto;
+    border: solid rgb(192, 129, 250) 3px;
+    border-radius: 30px;
+    width: 250px;
+}
+.cards_item>img{
+    width: 250px;
+}
