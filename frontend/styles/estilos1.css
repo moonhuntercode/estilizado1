@@ -3,7 +3,7 @@ body{
 
 }
 .navbar{
-    
+    position: fixed;
     
     font-size: 30px;
  background-color:  rgba(255, 255, 255, 0.6);
