@@ -5,5 +5,8 @@ body{
 background-image: url(../img/tecnodent-publicidad1-copia.png);
 background-repeat: no-repeat;
 background-size:95%;
-height: 100vh;
+height:100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
