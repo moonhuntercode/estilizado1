@@ -2,11 +2,34 @@ body{
     
 }
 .portada{
-background-image: url(../img/tecnodent-publicidad1-copia.png);
+/* background-image: url(../img/tecnodent-publicidad1-copia.png); */
 background-repeat: no-repeat;
-background-size:95%;
-height:100vh;
-display: flex;
-justify-content: center;
-align-items: center;
+
 }
+
+.portada a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  
+    
+}
+#cambiarhoja{
+    z-index: 3 !important;
+    
+}
+#img1{
+width: 100%;
+z-index: -3 !important;
+position: absolute;
+/* top: -20px; */
+}
+/* @media screen and (min-width:1190px) {
+    #img1{
+        width: 60%;
+        height: 90%;
+}
+} */
