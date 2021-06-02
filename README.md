@@ -1,2 +1,2 @@
 # estilizado1
- estilo de practica
+ práctica sencilla de app full stack
