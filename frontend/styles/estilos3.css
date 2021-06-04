@@ -39,6 +39,7 @@
 .sombra1{
     background-color: rgb(35,44,87);
     color: white;
+    margin-bottom: 10px;
 }
 .sombra1:hover{
     box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
@@ -47,6 +48,8 @@
     .sombra2{
         background-color: rgb(35,44,87);
         color: white;
+    margin-bottom: 10px;
+
     }
     .sombra2:hover{
         box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
@@ -55,6 +58,8 @@
         .sombra3{
             background-color: rgb(35,44,87);
             color: white;
+    margin-bottom: 10px;
+
         }
         .sombra3:hover{
             box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
