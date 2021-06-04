@@ -36,11 +36,27 @@
     text-decoration:none;
     color:#bbb;
 }
-.sombra2{
+.sombra1{
     background-color: rgb(35,44,87);
     color: white;
 }
-.sombra2:hover{
+.sombra1:hover{
     box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
     transition: 0.5s;
     }
+    .sombra2{
+        background-color: rgb(35,44,87);
+        color: white;
+    }
+    .sombra2:hover{
+        box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
+        transition: 0.5s;
+        }
+        .sombra3{
+            background-color: rgb(35,44,87);
+            color: white;
+        }
+        .sombra3:hover{
+            box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
+            transition: 0.5s;
+            }
