@@ -64,8 +64,11 @@
             color: white;
     margin-bottom: 10px;
     height: 10vh;
-
-
+display: flex;
+flex-wrap: wrap;
+        }
+        #imgosito{
+            width: 90px;
         }
         .sombra3:hover{
             box-shadow:inset  0px -7px 15px rgb(43, 255, 149) !important;
@@ -81,4 +84,27 @@
                 -ms-transform: skew(10deg);
                 -o-transform: skew(10deg);
                 transform: skew(20deg);
+           }
+           .tooltip {
+               position: relative;
+               display: inline-block;
+               border-bottom: 3px dotted black;
+               
+           }
+           .tooltip .tooltiptext{
+               visibility: hidden;
+               
+               width: 130px;
+               background-color: rgb(132, 0, 255);
+               color: whitesmoke;
+               text-align: center;
+               border-radius: 6px;
+               position: absolute;
+               z-index: 1;
+              
+           }
+           .tooltip:hover .tooltiptext{
+           margin-left: 3px;
+               visibility: visible;
+               
            }
