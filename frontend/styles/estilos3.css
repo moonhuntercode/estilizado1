@@ -36,7 +36,10 @@
     text-decoration:none;
     color:#bbb;
 }
-.sombra1{
+.contenedor{
+    display: inline-grid;
+}
+#sombra1{
     background-color: rgb(35,44,87);
     color: white;
     margin-bottom: 10px;
@@ -44,33 +47,34 @@
     width: 30vw;
     border-radius: 10px;
 }
-.sombra1:hover{
+#sombra1:hover{
     box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
     transition: 0.5s;
     }
-    .sombra2{
+   #sombra2{
         background-color: rgb(35,44,87);
         color: white;
     margin-bottom: 10px;
     height: 10vh;
-
+    border-radius: 10px;
     }
-    .sombra2:hover{
+    #sombra2:hover{
         box-shadow:inset  0px -7px 15px rgb(43, 255, 149);
         transition: 0.5s;
         }
-        .sombra3{
+        #sombra3{
             background-color: rgb(35,44,87);
             color: white;
     margin-bottom: 10px;
     height: 10vh;
 display: flex;
 flex-wrap: wrap;
+border-radius: 10px;
         }
         #imgosito{
             width: 90px;
         }
-        .sombra3:hover{
+      #sombra3:hover{
             box-shadow:inset  0px -7px 15px rgb(43, 255, 149) !important;
             transition: 0.5s;
             }
@@ -108,3 +112,4 @@ flex-wrap: wrap;
                visibility: visible;
                
            }
+           
