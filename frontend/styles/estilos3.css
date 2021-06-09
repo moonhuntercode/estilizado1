@@ -120,6 +120,6 @@ border-radius: 10px;
                display: flex;
                border: solid #013320 3px;
            }
-           .item{
-               background-co    lor: #01af6c;
+           .item:nth-child(1){
+               background-color: #01af6c;
            }
