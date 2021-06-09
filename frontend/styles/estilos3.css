@@ -36,9 +36,13 @@
     text-decoration:none;
     color:#bbb;
 }
+
+/* CONTENEDOR GRID */
 .contenedor{
     display: inline-grid;
+    grid-template-rows:50px 100px ;
 }
+
 #sombra1{
     background-color: rgb(35,44,87);
     color: white;
@@ -112,4 +116,10 @@ border-radius: 10px;
                visibility: visible;
                
            }
-           
+           .flex_container{
+               display: flex;
+               border: solid #013320 3px;
+           }
+           .item{
+               background-co    lor: #01af6c;
+           }
