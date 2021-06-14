@@ -1,19 +1,54 @@
 .grid_container1{
     display: grid;
 }
+.contenedor1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: green;
+    animation-name:example1;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
 .contenedor2{
     width: 100px;
     height: 100px;
     position: relative;
-    background-color: red;
-    animation-name:example ;
+    background-color: white;
+    animation-name:example2;
     animation-duration: 4s;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
 }
-@keyframes example{
-    0% {background-color:red ;left: 0px;top: 0px;}
-    25% {background-color:aqua ;left: 200px;top: 0px;}
-    50% {background-color:green ;left: 200px;top: 200px;}
-    75% {background-color:burlywood ;left: 200px;top: 0px;}
+.contenedor3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: green;
+    animation-name:example3;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+}
+@keyframes example1{
+    0% {background-color:green ;left: 0px;top: 0px;}
+    25% {background-color:green ;left: 200px;top: 0px;border: solid black 3px;}
+    50% {background-color:green ;left: 200px;top: 0px;}
+}
+@keyframes example2{
+    0% {background-color:white ;left: 0px;top: 0px;}
+    25% {background-color:white ;left: 200px;top: 0px;border: solid black 3px;}
+    50% {background-color:white ;left: 200px;top: 0px;}
+}
+@keyframes example3{
+    0% {background-color:green ;left: 0px;top: 0px;}
+    25% {background-color:green ;left: 200px;top: 0px;border: solid black 3px;}
+    50% {background-color:green ;left: 200px;top: 0px;}
+}
+.content:before {
+    content: 'Text inserted before via CSS';
+}
+.content:after {
+    content: 'Text inserted after via CSS';
 }
