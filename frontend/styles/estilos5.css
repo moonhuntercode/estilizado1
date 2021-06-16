@@ -1,0 +1,34 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: blueviolet;
+    color: white; 
+}
+.interfaz_principal{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.hijo{
+    background-color: aquamarine;
+    text-align: center;
+    height: 90vh;
+}
+.hijo:nth-child(1){
+    background-color: rgb(65, 42, 165);
+    color: white;
+}
+.hijo:nth-child(2){
+    background-color: rgb(40, 26, 104);
+    color: white;
+}
+.hijo:nth-child(3){
+    background-color: rgb(65, 42, 165);
+    color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: blueviolet;
+    color: white; 
+}
