@@ -1,6 +1,16 @@
 body{
     
 }
+ul{
+    text-decoration: none ;
+    list-style: none;
+}
+a{
+    text-decoration: none ;
+}
+.navbar{
+    
+}
 .portada{
 /* background-image: url(../img/tecnodent-publicidad1-copia.png); */
 background-repeat: no-repeat;
