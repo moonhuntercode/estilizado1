@@ -1,0 +1,16 @@
+body{
+    
+}
+.imgportada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    
+}
+.imgportada img{
+    height: 60vh;
+}
+.imgportada2{
+    background-color: rgb(59, 59, 59);
+}

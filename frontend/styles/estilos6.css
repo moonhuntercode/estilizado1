@@ -1,3 +1,21 @@
-body{
-    background-color: rgb(41,46,54);
+
+
+.contenedor1{
+    display: grid;
+    grid-template-columns: 45vw;
+    grid-column: auto;
+     
+}
+.imgportada1{
+    background-color: rgb(34, 36, 39);
+    height: 45vh;
+}
+
+.imgportada2{
+    background-color: rgb(59, 59, 59);
+    height: 45vh;
+}
+
+#img1{
+height: 40vh;
 }
